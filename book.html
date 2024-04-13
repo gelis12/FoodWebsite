@@ -116,17 +116,53 @@
             <div class="book-a-table-text">
                 <h1>Book A Table</h1>
                 <p>We consider all the drivers of change gives you the components you need to change to create a truly happens.</p>
-                <div class="book-a-table-form">
+                <form class="book-a-table-form">
+                    <p>
+                        <label class="form-text date" for="date">Date</label><br>
+                        <input class="form-imput" type="date" id="date" name="date" ><br>
+                    </p>
 
-                </div>
+                    <P>
+                        <label class="form-text time" for="time">Time</label><br>
+                        <input class="form-imput" type="time" id="time" name="time"><br>
+                    </P>
+
+                    <P>
+                        <label class="form-text" for="name">Name</label><br>
+                        <input placeholder="Enter your name" class="form-imput" type="text" id="name" name="name"><br>
+                    </P>
+                    
+                    <P>
+                        <label class="form-text" for="phone">Phone</label><br>
+                        <input placeholder="x-xxx-xxx-xxxx" class="form-imput" type="tel" id="phone" name="phone" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+                    </P>
+                    <p>
+                        <label class="form-text" for="totalPerson">Total Person</label><br>
+                        <select  class="imput-style" id="cars">
+                            <option selected class="form-choices" label="1 Person">1 Person</option>
+                            <option class="form-choices" label="2 Person">2 Person</option>
+                            <option class="form-choices" label="3 Person">3 Person</option>
+                            <option class="form-choices" label="4 Person">4 Person</option>
+                            <option class="form-choices" label="5 Person">5 Person</option>
+                        </select>
+                    </p>
+
+                    <button class="form-btn">Book A Table</button>
+                </form>
             </div>
             
         </div>
     </div>
+    
 </section>
 
 
-
+<!-- --------------------------------------------------------------------------------------------------------------------------------------- -->
+<section>
+    <div class="book-map">
+        <img class="book-img" src="./img/map.png" alt="map">
+    </div>
+</section>
 
 
 
